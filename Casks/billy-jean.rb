@@ -4,17 +4,17 @@ cask "billy-jean" do
   on_arm do
     sha256 "acc7655209090623152ab73f004ec645fcaa4051ab2150f62aa0a5d0adf674a9"
 
-    url "https://github.com/pravinbashyal/billing/releases/download/v#{version}/Billy-Jean-#{version}-arm64.dmg"
+    url "https://github.com/pravinbashyal/billy-jean/releases/download/v#{version}/Billy-Jean-#{version}-arm64.dmg"
   end
   on_intel do
     sha256 "16aee97acf04064ac6a30f6d828e65136be61826f6979ed9c5cd3953e892c120"
 
-    url "https://github.com/pravinbashyal/billing/releases/download/v#{version}/Billy-Jean-#{version}-x86_64.dmg"
+    url "https://github.com/pravinbashyal/billy-jean/releases/download/v#{version}/Billy-Jean-#{version}-x86_64.dmg"
   end
 
   name "Billy Jean"
   desc "Desktop app for writing invoices as PDF files"
-  homepage "https://github.com/pravinbashyal/billing"
+  homepage "https://github.com/pravinbashyal/billy-jean"
 
   depends_on :macos
 
